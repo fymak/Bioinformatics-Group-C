@@ -47,7 +47,7 @@ def run_trimmomatic(forward_reads,reverse_reads,forward_paired_reads,forward_unp
         forward_reads,reverse_reads,
         forward_paired_reads,forward_unpaired_reads,
         reverse_paired_reads,reverse_unpaired_reads,
-        "CROP:145","LEADING:10","TRAILING:10","SLIDINGWINDOW:5:20","MINLEN:145"
+        "CROP:155","LEADING:10","TRAILING:10","SLIDINGWINDOW:5:20","MINLEN:155"
     ]
 
     subprocess.run(command)
