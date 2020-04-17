@@ -12,7 +12,7 @@ import os
 import annotate
 import assemble
 
-RESULTS_DIR = "zeus_ouput/"
+RESULTS_DIR = "zeus_output/"
 ANNOTATE_DIR = RESULTS_DIR+"annos/"
 
 def main():
